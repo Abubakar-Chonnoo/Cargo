@@ -855,3 +855,132 @@ li {
 
 
 /* FOOTER */
+.footer {
+    background-color: #333333;
+}
+
+.footer__container {
+    padding: 64px 15px;
+}
+
+.footer__container_textbox {
+    /* border: 1px solid green; */
+    font-family: Oswald, sans-serif;
+    color: white;
+}
+
+.footer__header {
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.footer__text {
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+
+.footer__container_feature {
+    /* border: 1px solid red; */
+    font-family: Oswald, sans-serif;
+}
+
+.feature__header {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.feature__list li {
+    color: #939393;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.footer__container_newsletter {
+    /* border: 1px solid yellow; */
+    font-family: Oswald, sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.newsletter__header {
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.newsletter__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter__input_bar {
+    width: 70%;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-family: Oswald, sans-serif;
+}
+
+.newsletter__input_button {
+    width: 30%;
+    height: 40px;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    background-color: #ff8b00;
+    color: white;
+    font-size: 16px;
+    font-family: Oswald, sans-serif;
+}
+
+.footer__container_social {
+    /* border: 1px solid orange; */
+    margin-bottom: 75px;
+}
+
+.social__header {
+    font-family: Oswald, sans-serif;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.social__icon ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.social__icon i {
+    color: #939393;
+}
+
+.footer__container_copyright {
+    /* border: 1px solid yellow; */
+    border-top: 1px solid #797979;
+    padding-top: 48px;
+    font-family: Oswald, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.copyright__text {
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.colorlib {
+    color: #939393;
+}
