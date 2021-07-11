@@ -643,3 +643,144 @@ li {
     color: #939393;
     margin-bottom: 15px;
 }
+
+
+/* CLIENTS */
+.client {
+    background-color: #f6f5f5;
+}
+
+.client__container {
+    /* border: 1px solid black; */
+    padding: 48px 15px;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+
+.client__container_header {
+    margin-bottom: 50px;
+}
+
+.client__header {
+    font-size: 32px;
+    color: #ff8b00;
+    margin-bottom: 8px;
+}
+
+.client__message {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px
+}
+
+.client__message_text {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 16px;
+    line-height: 30px;
+}
+
+.client__container_image {
+    margin-top: 50px;
+}
+
+.client__image {
+    width: 25%;
+    height: auto;
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+}
+
+.client__name {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.client__container_dot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* ARTICLE */
+.article {
+    padding: 48px 15px;
+}
+
+.article__container {
+    font-family: Oswald, sans-serif;
+}
+
+.article__container_header {
+    margin-bottom: 50px;
+}
+
+.article__header {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #ff8b00;
+    text-align: center;
+}
+
+.article__container_post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.article__postImage {
+    width: 50%;
+}
+
+.article__postImage_image {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.article__postBlog {
+    width: 43%;
+}
+
+.article__postBlog_date {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.article__postBlog_header {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.article__postBlog_text {
+    font-size: 17px;
+    color: #939393;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.article__postBlog_more {
+    color: #ff8b00;
+    font-size: 18px;
+}
+
+
+/* CONTACT US */
+.contact {
+    background-color: #f6f5f5;
+}
+
+.contact__container {
+    padding: 48px 15px;
+}
+
+.contact__container_header {
+    font-family: Oswald, sans-serif;
+}
