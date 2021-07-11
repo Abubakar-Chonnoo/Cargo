@@ -60,10 +60,6 @@ li {
     align-items: center;
 }
 
-.navbar__menu {
-    display: none;
-}
-
 .navbar__container {
     /* border: 1px solid black; */
     background-color: white;
@@ -85,6 +81,29 @@ li {
     font-family: Oswald, sans-serif;
 }
 
+.navbar__menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 118px;
+    left:0;
+    background: #fff;
+    z-index: 10;
+    font-family: Oswald, sans-serif;
+}
+
+.navbar__menu_item li {
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+    padding: 14px 20px;
+}
+
+.navbar__active {
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
 
 
 /* MAIN */
@@ -93,7 +112,7 @@ li {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     position: relative;
 }
 
@@ -103,7 +122,7 @@ li {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     z-index:1;
 }
@@ -516,20 +535,25 @@ li {
 }
 
 .package__list {
+    /* border: 1px solid blue; */
     font-family: Oswald, sans-serif;
-    border: 1px solid blue;
-    margin-bottom: 48px;
-}
-
-.package__list i {
-    color: #71bc42;
-    padding-right: 15px;
+    margin-bottom: 35px;
+    margin-left: 35px;
 }
 
 .package__list li {
-    font-size: 17px;
+    position: relative;
+    font-size: 19px;
     color: #939393;
     margin-bottom: 20px;
+}
+
+.package__list li::before {
+    left: -25px;
+    font-size: 20px;
+    top: -2px;
+    content: url(tick.png);
+    position: absolute;
 }
 
 .package__button {
@@ -883,6 +907,7 @@ li {
 .footer__container_feature {
     /* border: 1px solid red; */
     font-family: Oswald, sans-serif;
+    margin-bottom: 25px;
 }
 
 .feature__header {
