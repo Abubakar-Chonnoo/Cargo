@@ -28,10 +28,6 @@ li {
     background-color: #eee;
 }
 
-.topbar__container_contact {
-    /* border: 1px solid red; */
-}
-
 .topbar__container_contact ul {
     display: flex;
     flex-direction: row;
@@ -177,6 +173,7 @@ li {
 }
 
 
+
 /* SERVICE */
 .service {
     position: relative;
@@ -303,6 +300,7 @@ li {
 }
 
 
+
 /* ABOUT US */
 .about__container {
     /* background-color: red; */
@@ -382,6 +380,7 @@ li {
     color: #939393;
     padding-top: 10px;
 }
+
 
 
 /* STAFF */
@@ -478,6 +477,7 @@ li {
 }
 
 
+
 /* PRICING */
 .pricing__container {
     padding: 48px 15px;
@@ -566,6 +566,7 @@ li {
 }
 
 
+
 /* QUESTIONS */
 .question {
     background-color: #f6f5f5;
@@ -613,6 +614,7 @@ li {
     color: #939393;
     margin-bottom: 0;
 }
+
 
 
 /* WHY US */
@@ -667,6 +669,7 @@ li {
     color: #939393;
     margin-bottom: 15px;
 }
+
 
 
 /* CLIENTS */
@@ -728,6 +731,7 @@ li {
     justify-content: center;
     margin-top: 50px;
 }
+
 
 
 /* ARTICLE */
@@ -794,6 +798,7 @@ li {
     color: #ff8b00;
     font-size: 18px;
 }
+
 
 
 /* CONTACT US */
@@ -876,6 +881,7 @@ li {
     line-height: 30px;
     margin-bottom: 20px;
 }
+
 
 
 /* FOOTER */
