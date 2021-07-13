@@ -859,6 +859,112 @@ li {
     align-items: center;
 }
 
+.staff__tablet {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .staff__container_textbox {
+        width: 50%;
+        margin: 0 auto 50px;
+    }
+
+    .staff__text {
+        font-size: 19px;
+    }
+
+    .personal__photo {
+        width: 20%;
+    }
+
+    .staff__container_personal {
+        margin: 0 30px;
+    }
+
+    .personal__text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .staff__container_textbox {
+        width: 60%;
+    }
+
+    .staff__header {
+        font-size: 45px;
+    }
+
+    .staff__text {
+        font-size: 19px;
+    }
+
+    .staff__container_dot .dot {
+        display: none;
+    }
+
+    .staff__tablet {
+        display: flex;
+    }
+
+    .staff__container_tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 60px 20px 50px;
+    }
+
+    .staff__container_personal {
+        width: 31%;
+        margin: 0 0 30px;
+    }
+
+    .personal__photo {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .staff__text {
+        font-size: 20px;
+    }
+
+    .staff__container_tablet{
+        margin: 60px 28px 50px;
+    }
+
+    .personal__text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .staff__container_textbox {
+        width: 44%;
+    }
+
+    .staff__header {
+        font-size: 48px;
+    }
+
+    .staff__text {
+        font-size: 23px;
+    }
+
+    .personal__photo {
+        width: 45%;
+    }
+
+    .staff__container_tablet {
+        margin: 100px 150px 50px;
+    }
+
+    .personal__text {
+        font-size: 22px;
+    }
+}
 
 
 /* PRICING */
