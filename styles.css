@@ -1762,7 +1762,7 @@ li {
 
 @media only screen and (min-width: 1440px) {
     .contact__container {
-        margin: 100px 150px 50px;
+        margin: 100px 150px 0px;
     }
 
     .contact__left {
@@ -1902,4 +1902,50 @@ li {
 
 .colorlib {
     color: #939393;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer__container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 30px;
+    }
+
+    .footer__container_textbox {
+        width: 30%;
+    }
+
+    .footer__container_feature {
+        width: 25%;
+    }
+
+    .footer__newssocial__tablet {
+        width: 30%;
+    }
+
+    .footer__container_copyright {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer__container {
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .footer__container {
+        margin: 0 28px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .footer__container {
+        margin: 0 150px 0px;
+    }
 }
